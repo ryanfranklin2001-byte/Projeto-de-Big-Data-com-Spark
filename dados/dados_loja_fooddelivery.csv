@@ -1,0 +1,501 @@
+pedido_id;cidade;restaurante;tempo_entrega_min;valor_pedido;status;pagamento;avaliacao_cliente
+1;Rio de Janeiro;ChurrasKing;69;135.11;Cancelado;Dinheiro;1.0
+2;Curitiba;SushiHouse;88;69.62;Entregue;Pix;4.0
+3;Belo Horizonte;BurgerFast;88;31.09;Entregue;Cartão;2.0
+4;Brasília;BurgerFast;42;79.13;Entregue;Voucher;5.0
+5;Curitiba;BurgerFast;75;33.16;Entregue;Dinheiro;2.0
+6;Curitiba;PizzaMax;42;30.11;Cancelado;Cartão;2.0
+7;Rio de Janeiro;VeggieLife;28;64.13;Entregue;Dinheiro;1.0
+8;Rio de Janeiro;VeggieLife;54;102.28;Entregue;Pix;2.0
+9;Brasília;VeggieLife;16;101.67;Cancelado;Pix;2.0
+10;Curitiba;PizzaMax;49;120.17;Entregue;Dinheiro;1.0
+11;Rio de Janeiro;BurgerFast;45;95.61;Entregue;Pix;
+12;Rio de Janeiro;BurgerFast;61;33.87;Cancelado;Dinheiro;3.0
+13;Curitiba;PizzaMax;30;61.57;Entregue;Cartão;2.0
+14;Curitiba;VeggieLife;56;20.58;Entregue;Voucher;5.0
+15;Brasília;SushiHouse;62;72.86;Entregue;Dinheiro;4.0
+16;Curitiba;PizzaMax;70;73.45;Entregue;Voucher;2.0
+17;São Paulo;VeggieLife;46;98.16;Entregue;Dinheiro;1.0
+18;Brasília;BurgerFast;73;20.19;Entregue;Voucher;1.0
+19;Curitiba;VeggieLife;84;57.11;Entregue;Pix;5.0
+20;Belo Horizonte;PizzaMax;60;106.41;Entregue;Voucher;3.0
+21;Rio de Janeiro;ChurrasKing;39;134.19;Entregue;Voucher;2.0
+22;Curitiba;VeggieLife;29;48.18;Entregue;Pix;4.0
+23;São Paulo;ChurrasKing;29;148.96;Cancelado;Cartão;4.0
+24;Rio de Janeiro;PizzaMax;51;61.33;Cancelado;Pix;2.0
+25;Belo Horizonte;SushiHouse;17;101.24;Cancelado;Cartão;2.0
+26;Belo Horizonte;ChurrasKing;82;65.7;Entregue;Dinheiro;4.0
+27;Brasília;BurgerFast;41;105.07;Entregue;Dinheiro;
+28;Belo Horizonte;SushiHouse;73;126.22;Entregue;Voucher;
+29;São Paulo;PizzaMax;69;63.93;Entregue;Cartão;
+30;Rio de Janeiro;BurgerFast;70;122.84;Cancelado;Cartão;1.0
+31;Brasília;BurgerFast;72;43.74;Entregue;Pix;
+32;Rio de Janeiro;BurgerFast;30;142.47;Entregue;Cartão;3.0
+33;Curitiba;SushiHouse;72;105.9;Entregue;Dinheiro;1.0
+34;Brasília;VeggieLife;60;144.77;Entregue;Dinheiro;2.0
+35;São Paulo;SushiHouse;22;81.6;Entregue;Voucher;4.0
+36;Curitiba;SushiHouse;35;25.13;Entregue;Dinheiro;5.0
+37;Belo Horizonte;PizzaMax;52;69.98;Entregue;Voucher;4.0
+38;Rio de Janeiro;SushiHouse;30;97.17;Cancelado;Dinheiro;4.0
+39;Brasília;VeggieLife;65;148.97;Entregue;Cartão;3.0
+40;Rio de Janeiro;SushiHouse;22;100.76;Cancelado;Pix;2.0
+41;Belo Horizonte;ChurrasKing;55;92.41;Entregue;Voucher;1.0
+42;Rio de Janeiro;ChurrasKing;72;86.55;Cancelado;Cartão;1.0
+43;São Paulo;ChurrasKing;31;31.18;Entregue;Cartão;4.0
+44;Curitiba;PizzaMax;75;116.26;Entregue;Dinheiro;4.0
+45;Rio de Janeiro;BurgerFast;85;123.73;Cancelado;Cartão;2.0
+46;Curitiba;PizzaMax;60;22.94;Entregue;Voucher;2.0
+47;Brasília;PizzaMax;57;28.69;Entregue;Voucher;3.0
+48;Rio de Janeiro;ChurrasKing;18;103.44;Entregue;Dinheiro;5.0
+49;Brasília;PizzaMax;74;92.19;Entregue;Pix;3.0
+50;Belo Horizonte;ChurrasKing;87;75.68;Entregue;Dinheiro;5.0
+51;Belo Horizonte;SushiHouse;48;139.7;Entregue;Dinheiro;1.0
+52;Brasília;VeggieLife;90;107.18;Entregue;Voucher;1.0
+53;Rio de Janeiro;BurgerFast;19;22.79;Entregue;Dinheiro;2.0
+54;Belo Horizonte;BurgerFast;45;120.83;Entregue;Cartão;2.0
+55;Rio de Janeiro;VeggieLife;82;34.04;Cancelado;Voucher;5.0
+56;São Paulo;BurgerFast;27;136.09;Entregue;Cartão;5.0
+57;Curitiba;ChurrasKing;85;24.45;Entregue;Cartão;5.0
+58;Curitiba;BurgerFast;53;82.47;Entregue;Dinheiro;1.0
+59;São Paulo;SushiHouse;60;49.78;Entregue;Pix;5.0
+60;São Paulo;PizzaMax;64;137.35;Entregue;Cartão;
+61;Rio de Janeiro;ChurrasKing;76;52.75;Cancelado;Dinheiro;3.0
+62;Belo Horizonte;SushiHouse;83;94.24;Entregue;Cartão;3.0
+63;Rio de Janeiro;ChurrasKing;72;132.01;Cancelado;Pix;5.0
+64;Belo Horizonte;ChurrasKing;60;123.74;Entregue;Voucher;4.0
+65;Brasília;VeggieLife;46;45.99;Entregue;Voucher;2.0
+66;Brasília;VeggieLife;17;81.31;Cancelado;Cartão;5.0
+67;Curitiba;SushiHouse;66;62.46;Entregue;Pix;
+68;Belo Horizonte;BurgerFast;59;93.45;Entregue;Cartão;5.0
+69;Brasília;BurgerFast;79;55.47;Entregue;Pix;1.0
+70;Brasília;SushiHouse;59;134.32;Entregue;Pix;3.0
+71;Brasília;SushiHouse;43;139.3;Entregue;Cartão;3.0
+72;São Paulo;ChurrasKing;67;115.95;Entregue;Dinheiro;3.0
+73;Brasília;BurgerFast;46;126.76;Entregue;Cartão;3.0
+74;Curitiba;SushiHouse;57;64.03;Entregue;Dinheiro;5.0
+75;Brasília;BurgerFast;90;131.89;Entregue;Pix;2.0
+76;Rio de Janeiro;ChurrasKing;49;20.56;Entregue;Voucher;5.0
+77;São Paulo;BurgerFast;78;21.64;Cancelado;Dinheiro;
+78;São Paulo;SushiHouse;63;102.59;Entregue;Cartão;2.0
+79;Belo Horizonte;SushiHouse;39;102.66;Entregue;Pix;2.0
+80;Brasília;SushiHouse;24;125.66;Entregue;Pix;3.0
+81;Rio de Janeiro;PizzaMax;21;128.41;Cancelado;Dinheiro;5.0
+82;Curitiba;ChurrasKing;63;46.71;Entregue;Voucher;1.0
+83;Rio de Janeiro;PizzaMax;84;55.7;Cancelado;Voucher;
+84;Rio de Janeiro;PizzaMax;76;142.15;Cancelado;Pix;1.0
+85;São Paulo;ChurrasKing;54;93.27;Entregue;Cartão;1.0
+86;Rio de Janeiro;ChurrasKing;24;67.97;Cancelado;Dinheiro;1.0
+87;São Paulo;SushiHouse;57;50.5;Cancelado;Dinheiro;
+88;Brasília;ChurrasKing;61;62.33;Entregue;Cartão;5.0
+89;Curitiba;VeggieLife;78;49.44;Entregue;Cartão;2.0
+90;Curitiba;PizzaMax;19;46.2;Entregue;Dinheiro;3.0
+91;Curitiba;VeggieLife;48;88.2;Entregue;Voucher;4.0
+92;Brasília;VeggieLife;74;45.44;Entregue;Dinheiro;3.0
+93;São Paulo;BurgerFast;17;85.28;Entregue;Dinheiro;3.0
+94;Rio de Janeiro;BurgerFast;50;103.28;Cancelado;Dinheiro;4.0
+95;Rio de Janeiro;VeggieLife;83;63.1;Cancelado;Cartão;2.0
+96;Belo Horizonte;VeggieLife;70;26.52;Entregue;Dinheiro;5.0
+97;Curitiba;SushiHouse;23;57.81;Entregue;Cartão;1.0
+98;Belo Horizonte;BurgerFast;90;149.79;Entregue;Voucher;2.0
+99;Belo Horizonte;PizzaMax;38;59.91;Entregue;Pix;5.0
+100;Belo Horizonte;PizzaMax;55;117.08;Cancelado;Dinheiro;1.0
+101;Brasília;SushiHouse;69;100.75;Entregue;Pix;4.0
+102;São Paulo;PizzaMax;63;113.26;Entregue;Pix;
+103;Brasília;PizzaMax;53;33.97;Cancelado;Dinheiro;1.0
+104;Rio de Janeiro;SushiHouse;71;120.73;Cancelado;Dinheiro;1.0
+105;Rio de Janeiro;PizzaMax;28;134.83;Entregue;Voucher;5.0
+106;Curitiba;BurgerFast;19;111.2;Entregue;Pix;2.0
+107;Brasília;BurgerFast;72;29.5;Cancelado;Dinheiro;1.0
+108;São Paulo;ChurrasKing;15;27.43;Entregue;Pix;4.0
+109;Brasília;BurgerFast;48;64.64;Entregue;Pix;2.0
+110;São Paulo;SushiHouse;30;88.36;Entregue;Cartão;2.0
+111;São Paulo;VeggieLife;55;80.35;Entregue;Voucher;5.0
+112;Brasília;ChurrasKing;47;141.04;Entregue;Voucher;1.0
+113;São Paulo;SushiHouse;40;21.68;Entregue;Voucher;5.0
+114;São Paulo;ChurrasKing;49;82.95;Entregue;Dinheiro;
+115;Belo Horizonte;SushiHouse;19;40.06;Entregue;Pix;
+116;Rio de Janeiro;SushiHouse;32;149.58;Entregue;Voucher;2.0
+117;Rio de Janeiro;VeggieLife;47;25.4;Cancelado;Dinheiro;3.0
+118;Belo Horizonte;SushiHouse;30;144.29;Entregue;Dinheiro;2.0
+119;Belo Horizonte;VeggieLife;58;121.75;Entregue;Voucher;1.0
+120;São Paulo;PizzaMax;42;119.95;Entregue;Pix;1.0
+121;Curitiba;VeggieLife;41;133.56;Entregue;Voucher;3.0
+122;Rio de Janeiro;VeggieLife;24;129.31;Entregue;Dinheiro;
+123;Rio de Janeiro;PizzaMax;81;114.66;Cancelado;Voucher;3.0
+124;Belo Horizonte;SushiHouse;80;53.58;Entregue;Voucher;4.0
+125;São Paulo;VeggieLife;83;43.77;Entregue;Cartão;5.0
+126;Belo Horizonte;VeggieLife;24;76.52;Entregue;Pix;3.0
+127;Curitiba;PizzaMax;45;104.13;Entregue;Pix;3.0
+128;Brasília;SushiHouse;70;58.22;Entregue;Dinheiro;4.0
+129;Brasília;SushiHouse;46;25.23;Entregue;Voucher;2.0
+130;Curitiba;PizzaMax;88;30.62;Entregue;Voucher;5.0
+131;Rio de Janeiro;PizzaMax;55;35.24;Entregue;Dinheiro;3.0
+132;Belo Horizonte;SushiHouse;57;84.82;Entregue;Cartão;3.0
+133;Curitiba;PizzaMax;28;107.05;Cancelado;Dinheiro;2.0
+134;Curitiba;PizzaMax;78;65.14;Entregue;Cartão;1.0
+135;Brasília;ChurrasKing;20;48.1;Entregue;Dinheiro;2.0
+136;Curitiba;PizzaMax;40;74.37;Cancelado;Dinheiro;3.0
+137;Rio de Janeiro;VeggieLife;46;100.15;Entregue;Dinheiro;4.0
+138;São Paulo;SushiHouse;31;91.18;Cancelado;Cartão;4.0
+139;Belo Horizonte;VeggieLife;66;73.12;Entregue;Voucher;1.0
+140;Rio de Janeiro;PizzaMax;18;39.24;Entregue;Pix;1.0
+141;Brasília;SushiHouse;85;23.76;Cancelado;Cartão;5.0
+142;São Paulo;VeggieLife;73;36.13;Cancelado;Pix;3.0
+143;Curitiba;PizzaMax;27;33.98;Entregue;Cartão;5.0
+144;Rio de Janeiro;VeggieLife;48;98.96;Entregue;Voucher;5.0
+145;Rio de Janeiro;VeggieLife;27;135.55;Entregue;Dinheiro;2.0
+146;Brasília;SushiHouse;55;124.82;Entregue;Dinheiro;
+147;São Paulo;VeggieLife;79;137.18;Entregue;Voucher;4.0
+148;Belo Horizonte;VeggieLife;15;37.83;Entregue;Cartão;5.0
+149;Belo Horizonte;BurgerFast;16;69.9;Entregue;Pix;4.0
+150;São Paulo;PizzaMax;77;125.67;Cancelado;Voucher;5.0
+151;Rio de Janeiro;ChurrasKing;50;47.88;Entregue;Dinheiro;4.0
+152;Belo Horizonte;BurgerFast;36;33.05;Entregue;Voucher;5.0
+153;Brasília;BurgerFast;73;66.67;Cancelado;Pix;3.0
+154;São Paulo;VeggieLife;25;20.4;Entregue;Cartão;3.0
+155;Rio de Janeiro;SushiHouse;30;122.55;Cancelado;Dinheiro;5.0
+156;Curitiba;SushiHouse;73;20.59;Entregue;Pix;2.0
+157;Belo Horizonte;PizzaMax;57;91.6;Entregue;Pix;
+158;Brasília;VeggieLife;24;46.54;Entregue;Pix;5.0
+159;São Paulo;ChurrasKing;90;119.97;Entregue;Dinheiro;
+160;Rio de Janeiro;PizzaMax;66;55.85;Cancelado;Dinheiro;
+161;Belo Horizonte;BurgerFast;55;44.5;Entregue;Dinheiro;5.0
+162;São Paulo;PizzaMax;74;51.25;Cancelado;Pix;1.0
+163;Curitiba;ChurrasKing;85;130.68;Cancelado;Voucher;3.0
+164;Rio de Janeiro;VeggieLife;36;102.92;Entregue;Cartão;5.0
+165;Curitiba;ChurrasKing;48;85.86;Entregue;Cartão;5.0
+166;Brasília;BurgerFast;48;99.28;Entregue;Dinheiro;5.0
+167;Curitiba;SushiHouse;21;124.21;Entregue;Pix;5.0
+168;Curitiba;ChurrasKing;37;58.83;Entregue;Dinheiro;5.0
+169;São Paulo;PizzaMax;86;62.87;Entregue;Dinheiro;2.0
+170;Curitiba;VeggieLife;28;103.13;Entregue;Cartão;
+171;São Paulo;BurgerFast;15;85.8;Entregue;Dinheiro;1.0
+172;Rio de Janeiro;SushiHouse;53;149.01;Entregue;Voucher;5.0
+173;Curitiba;PizzaMax;55;41.29;Entregue;Cartão;1.0
+174;São Paulo;ChurrasKing;39;32.87;Entregue;Pix;1.0
+175;Curitiba;PizzaMax;18;123.51;Cancelado;Voucher;
+176;Rio de Janeiro;VeggieLife;82;82.5;Cancelado;Dinheiro;1.0
+177;Curitiba;ChurrasKing;78;77.97;Entregue;Voucher;2.0
+178;Curitiba;PizzaMax;81;90.41;Entregue;Dinheiro;1.0
+179;Curitiba;ChurrasKing;86;34.44;Entregue;Dinheiro;5.0
+180;São Paulo;BurgerFast;77;52.48;Entregue;Cartão;
+181;Rio de Janeiro;ChurrasKing;17;120.04;Entregue;Dinheiro;4.0
+182;Belo Horizonte;ChurrasKing;75;30.97;Entregue;Dinheiro;2.0
+183;Rio de Janeiro;PizzaMax;64;130.06;Cancelado;Dinheiro;2.0
+184;Rio de Janeiro;VeggieLife;29;85.41;Entregue;Cartão;2.0
+185;Curitiba;VeggieLife;86;59.23;Entregue;Dinheiro;3.0
+186;Brasília;BurgerFast;25;91.26;Entregue;Cartão;3.0
+187;Curitiba;VeggieLife;54;81.15;Entregue;Cartão;4.0
+188;São Paulo;ChurrasKing;57;24.38;Entregue;Voucher;2.0
+189;São Paulo;SushiHouse;71;121.67;Cancelado;Dinheiro;
+190;São Paulo;VeggieLife;87;47.68;Cancelado;Pix;5.0
+191;Belo Horizonte;SushiHouse;35;60.72;Cancelado;Cartão;2.0
+192;Curitiba;BurgerFast;24;84.94;Entregue;Voucher;5.0
+193;Rio de Janeiro;VeggieLife;63;99.29;Cancelado;Voucher;
+194;Rio de Janeiro;ChurrasKing;80;84.19;Cancelado;Dinheiro;2.0
+195;Brasília;PizzaMax;56;119.9;Entregue;Pix;
+196;Rio de Janeiro;SushiHouse;45;108.53;Entregue;Dinheiro;
+197;Rio de Janeiro;ChurrasKing;75;56.52;Cancelado;Voucher;3.0
+198;Curitiba;SushiHouse;57;106.08;Entregue;Voucher;2.0
+199;Rio de Janeiro;VeggieLife;71;108.0;Cancelado;Dinheiro;1.0
+200;São Paulo;VeggieLife;35;106.26;Cancelado;Cartão;
+201;Curitiba;SushiHouse;62;99.96;Entregue;Dinheiro;3.0
+202;Brasília;PizzaMax;52;104.91;Entregue;Dinheiro;1.0
+203;Rio de Janeiro;SushiHouse;45;131.89;Entregue;Pix;1.0
+204;Brasília;VeggieLife;58;131.37;Entregue;Dinheiro;4.0
+205;Curitiba;PizzaMax;63;94.6;Entregue;Dinheiro;3.0
+206;São Paulo;ChurrasKing;27;44.38;Cancelado;Pix;3.0
+207;Rio de Janeiro;SushiHouse;24;59.83;Cancelado;Voucher;4.0
+208;São Paulo;BurgerFast;15;138.09;Entregue;Dinheiro;
+209;São Paulo;VeggieLife;27;40.7;Cancelado;Dinheiro;1.0
+210;Curitiba;ChurrasKing;85;21.7;Entregue;Pix;2.0
+211;Belo Horizonte;ChurrasKing;77;52.99;Entregue;Pix;
+212;Curitiba;SushiHouse;34;144.46;Entregue;Pix;3.0
+213;São Paulo;SushiHouse;49;96.89;Entregue;Dinheiro;5.0
+214;Curitiba;BurgerFast;88;91.98;Cancelado;Cartão;1.0
+215;Belo Horizonte;BurgerFast;60;56.4;Entregue;Voucher;5.0
+216;Curitiba;ChurrasKing;59;94.54;Entregue;Voucher;5.0
+217;Brasília;PizzaMax;76;110.56;Entregue;Dinheiro;3.0
+218;Belo Horizonte;VeggieLife;44;43.76;Cancelado;Voucher;2.0
+219;Belo Horizonte;BurgerFast;74;25.56;Entregue;Cartão;1.0
+220;Brasília;ChurrasKing;46;64.1;Entregue;Voucher;2.0
+221;Rio de Janeiro;SushiHouse;46;20.35;Cancelado;Dinheiro;2.0
+222;Belo Horizonte;SushiHouse;17;20.61;Entregue;Dinheiro;2.0
+223;Brasília;ChurrasKing;81;145.44;Entregue;Dinheiro;3.0
+224;São Paulo;PizzaMax;61;51.1;Cancelado;Cartão;3.0
+225;Rio de Janeiro;ChurrasKing;18;142.72;Entregue;Cartão;5.0
+226;São Paulo;PizzaMax;83;113.21;Cancelado;Pix;4.0
+227;São Paulo;VeggieLife;74;105.97;Entregue;Dinheiro;
+228;Curitiba;ChurrasKing;16;51.05;Entregue;Cartão;5.0
+229;Belo Horizonte;PizzaMax;32;70.48;Entregue;Cartão;4.0
+230;Brasília;SushiHouse;57;125.76;Entregue;Dinheiro;5.0
+231;Brasília;ChurrasKing;58;137.16;Entregue;Voucher;1.0
+232;São Paulo;PizzaMax;86;52.4;Entregue;Voucher;
+233;Brasília;BurgerFast;23;89.69;Entregue;Voucher;1.0
+234;Rio de Janeiro;BurgerFast;41;94.23;Entregue;Dinheiro;4.0
+235;Curitiba;PizzaMax;39;92.73;Entregue;Dinheiro;3.0
+236;Belo Horizonte;VeggieLife;40;39.54;Cancelado;Dinheiro;2.0
+237;Rio de Janeiro;VeggieLife;61;138.91;Cancelado;Voucher;
+238;Rio de Janeiro;ChurrasKing;38;74.62;Entregue;Voucher;5.0
+239;Belo Horizonte;SushiHouse;69;122.18;Entregue;Cartão;
+240;Brasília;BurgerFast;17;29.69;Entregue;Pix;1.0
+241;Belo Horizonte;SushiHouse;34;56.62;Entregue;Pix;4.0
+242;São Paulo;SushiHouse;61;41.3;Entregue;Voucher;3.0
+243;Brasília;BurgerFast;57;49.54;Entregue;Cartão;5.0
+244;Belo Horizonte;PizzaMax;36;28.28;Entregue;Voucher;2.0
+245;Brasília;PizzaMax;34;80.24;Entregue;Pix;3.0
+246;São Paulo;BurgerFast;46;52.39;Cancelado;Dinheiro;1.0
+247;Rio de Janeiro;SushiHouse;59;21.55;Entregue;Pix;1.0
+248;Belo Horizonte;BurgerFast;60;20.26;Entregue;Cartão;2.0
+249;Brasília;VeggieLife;38;50.09;Cancelado;Dinheiro;3.0
+250;Brasília;SushiHouse;77;90.28;Entregue;Pix;5.0
+251;Belo Horizonte;VeggieLife;86;46.0;Cancelado;Cartão;3.0
+252;São Paulo;ChurrasKing;49;122.65;Entregue;Pix;2.0
+253;Brasília;BurgerFast;46;65.14;Entregue;Dinheiro;2.0
+254;Curitiba;ChurrasKing;69;49.88;Cancelado;Voucher;2.0
+255;São Paulo;VeggieLife;78;33.89;Entregue;Dinheiro;5.0
+256;Brasília;BurgerFast;23;123.63;Entregue;Pix;3.0
+257;Rio de Janeiro;ChurrasKing;38;37.25;Entregue;Dinheiro;1.0
+258;São Paulo;BurgerFast;59;135.2;Entregue;Pix;2.0
+259;Belo Horizonte;VeggieLife;63;127.44;Entregue;Voucher;
+260;Curitiba;PizzaMax;49;99.9;Entregue;Cartão;3.0
+261;Brasília;BurgerFast;23;142.26;Entregue;Dinheiro;1.0
+262;Curitiba;ChurrasKing;20;114.75;Cancelado;Dinheiro;4.0
+263;Curitiba;VeggieLife;54;60.03;Entregue;Pix;
+264;Brasília;VeggieLife;72;105.08;Entregue;Dinheiro;3.0
+265;Belo Horizonte;BurgerFast;81;108.28;Cancelado;Pix;5.0
+266;São Paulo;ChurrasKing;74;111.79;Entregue;Voucher;5.0
+267;Belo Horizonte;BurgerFast;67;90.26;Entregue;Voucher;4.0
+268;Rio de Janeiro;PizzaMax;19;128.17;Entregue;Cartão;
+269;São Paulo;VeggieLife;63;125.36;Cancelado;Dinheiro;
+270;Curitiba;BurgerFast;88;46.1;Cancelado;Pix;1.0
+271;São Paulo;VeggieLife;61;121.6;Cancelado;Cartão;4.0
+272;Brasília;BurgerFast;80;78.88;Cancelado;Pix;2.0
+273;São Paulo;ChurrasKing;70;23.21;Cancelado;Dinheiro;2.0
+274;Curitiba;BurgerFast;25;49.08;Cancelado;Voucher;5.0
+275;Rio de Janeiro;ChurrasKing;89;113.32;Cancelado;Cartão;2.0
+276;São Paulo;VeggieLife;29;60.44;Entregue;Voucher;4.0
+277;Rio de Janeiro;SushiHouse;21;43.56;Entregue;Pix;
+278;Brasília;ChurrasKing;33;68.44;Cancelado;Pix;4.0
+279;Brasília;PizzaMax;61;34.2;Cancelado;Cartão;2.0
+280;Belo Horizonte;BurgerFast;56;132.97;Entregue;Voucher;1.0
+281;Rio de Janeiro;BurgerFast;54;94.94;Cancelado;Cartão;2.0
+282;Curitiba;VeggieLife;41;113.21;Cancelado;Dinheiro;1.0
+283;Rio de Janeiro;PizzaMax;39;117.51;Entregue;Pix;
+284;Brasília;ChurrasKing;32;120.39;Entregue;Dinheiro;1.0
+285;Brasília;BurgerFast;77;135.68;Entregue;Voucher;
+286;Rio de Janeiro;ChurrasKing;63;30.27;Cancelado;Cartão;3.0
+287;Belo Horizonte;ChurrasKing;25;61.63;Entregue;Pix;1.0
+288;São Paulo;VeggieLife;34;94.25;Entregue;Pix;1.0
+289;Belo Horizonte;BurgerFast;30;114.28;Cancelado;Pix;3.0
+290;Belo Horizonte;VeggieLife;58;110.73;Cancelado;Pix;4.0
+291;Belo Horizonte;BurgerFast;85;130.13;Entregue;Voucher;
+292;Rio de Janeiro;PizzaMax;48;41.41;Entregue;Dinheiro;
+293;Brasília;SushiHouse;16;47.23;Entregue;Cartão;
+294;Brasília;BurgerFast;67;135.76;Entregue;Voucher;
+295;São Paulo;ChurrasKing;87;36.16;Cancelado;Cartão;2.0
+296;Brasília;SushiHouse;22;36.26;Cancelado;Cartão;4.0
+297;São Paulo;SushiHouse;24;63.26;Entregue;Voucher;4.0
+298;Brasília;PizzaMax;54;107.1;Entregue;Voucher;1.0
+299;Rio de Janeiro;BurgerFast;72;91.84;Cancelado;Voucher;2.0
+300;São Paulo;SushiHouse;35;98.07;Cancelado;Pix;5.0
+301;Rio de Janeiro;ChurrasKing;66;67.52;Cancelado;Dinheiro;3.0
+302;Brasília;SushiHouse;30;77.53;Cancelado;Cartão;
+303;Rio de Janeiro;ChurrasKing;25;37.44;Entregue;Pix;5.0
+304;Belo Horizonte;ChurrasKing;89;89.44;Entregue;Voucher;4.0
+305;Brasília;BurgerFast;74;101.05;Cancelado;Pix;3.0
+306;Brasília;SushiHouse;80;106.65;Cancelado;Voucher;1.0
+307;Brasília;PizzaMax;51;73.05;Entregue;Pix;1.0
+308;Curitiba;ChurrasKing;48;22.85;Entregue;Pix;4.0
+309;Curitiba;BurgerFast;20;124.76;Entregue;Cartão;1.0
+310;Curitiba;ChurrasKing;88;27.87;Cancelado;Voucher;
+311;Brasília;VeggieLife;51;52.44;Entregue;Voucher;4.0
+312;Belo Horizonte;PizzaMax;29;85.6;Entregue;Cartão;5.0
+313;Rio de Janeiro;ChurrasKing;87;58.6;Cancelado;Pix;2.0
+314;Rio de Janeiro;ChurrasKing;64;51.22;Cancelado;Cartão;3.0
+315;Rio de Janeiro;BurgerFast;64;53.47;Cancelado;Cartão;4.0
+316;Belo Horizonte;SushiHouse;88;146.78;Entregue;Dinheiro;4.0
+317;Rio de Janeiro;BurgerFast;46;60.51;Entregue;Pix;2.0
+318;Rio de Janeiro;BurgerFast;47;30.16;Entregue;Pix;5.0
+319;Rio de Janeiro;VeggieLife;28;83.37;Entregue;Pix;1.0
+320;Belo Horizonte;VeggieLife;60;102.03;Entregue;Dinheiro;4.0
+321;Brasília;VeggieLife;81;22.02;Entregue;Voucher;5.0
+322;Brasília;BurgerFast;80;68.55;Entregue;Voucher;3.0
+323;Curitiba;VeggieLife;71;103.36;Cancelado;Dinheiro;2.0
+324;São Paulo;ChurrasKing;57;24.31;Entregue;Cartão;2.0
+325;São Paulo;ChurrasKing;83;68.21;Cancelado;Cartão;4.0
+326;Rio de Janeiro;BurgerFast;52;97.17;Entregue;Voucher;1.0
+327;Brasília;PizzaMax;54;91.18;Entregue;Pix;
+328;Brasília;ChurrasKing;72;113.04;Entregue;Dinheiro;5.0
+329;Rio de Janeiro;ChurrasKing;72;77.92;Cancelado;Cartão;5.0
+330;Belo Horizonte;SushiHouse;68;31.66;Entregue;Voucher;1.0
+331;São Paulo;PizzaMax;55;144.92;Cancelado;Voucher;2.0
+332;São Paulo;PizzaMax;34;65.98;Entregue;Cartão;1.0
+333;Belo Horizonte;ChurrasKing;87;93.46;Entregue;Dinheiro;3.0
+334;Belo Horizonte;ChurrasKing;86;144.78;Entregue;Pix;3.0
+335;Curitiba;PizzaMax;70;83.52;Entregue;Voucher;5.0
+336;Belo Horizonte;SushiHouse;65;44.06;Entregue;Voucher;1.0
+337;São Paulo;SushiHouse;15;59.95;Entregue;Voucher;
+338;Rio de Janeiro;PizzaMax;57;27.51;Cancelado;Dinheiro;2.0
+339;Curitiba;VeggieLife;43;78.68;Entregue;Pix;5.0
+340;Brasília;VeggieLife;87;52.37;Entregue;Pix;2.0
+341;Rio de Janeiro;ChurrasKing;49;43.11;Entregue;Dinheiro;
+342;Belo Horizonte;ChurrasKing;64;64.09;Cancelado;Dinheiro;
+343;Belo Horizonte;VeggieLife;19;92.94;Entregue;Pix;1.0
+344;Belo Horizonte;ChurrasKing;65;74.86;Entregue;Voucher;1.0
+345;Curitiba;PizzaMax;35;128.64;Entregue;Pix;5.0
+346;Brasília;PizzaMax;58;99.44;Entregue;Voucher;1.0
+347;Belo Horizonte;ChurrasKing;79;63.93;Entregue;Pix;4.0
+348;Brasília;VeggieLife;79;106.74;Cancelado;Pix;4.0
+349;Brasília;PizzaMax;34;113.28;Entregue;Cartão;
+350;Curitiba;ChurrasKing;71;66.31;Entregue;Cartão;5.0
+351;Brasília;ChurrasKing;47;35.73;Entregue;Pix;3.0
+352;São Paulo;ChurrasKing;24;80.24;Entregue;Cartão;
+353;Brasília;VeggieLife;58;145.2;Entregue;Dinheiro;5.0
+354;Rio de Janeiro;SushiHouse;62;37.66;Cancelado;Cartão;3.0
+355;Rio de Janeiro;BurgerFast;25;22.05;Cancelado;Voucher;3.0
+356;Curitiba;VeggieLife;55;45.4;Cancelado;Pix;5.0
+357;Belo Horizonte;VeggieLife;30;56.87;Cancelado;Voucher;2.0
+358;Belo Horizonte;BurgerFast;22;76.39;Entregue;Dinheiro;5.0
+359;Brasília;PizzaMax;34;140.11;Entregue;Cartão;3.0
+360;Curitiba;ChurrasKing;26;28.59;Entregue;Pix;
+361;São Paulo;ChurrasKing;19;75.33;Entregue;Voucher;
+362;Rio de Janeiro;ChurrasKing;21;60.01;Cancelado;Voucher;4.0
+363;Rio de Janeiro;BurgerFast;20;63.59;Cancelado;Voucher;5.0
+364;Rio de Janeiro;BurgerFast;46;92.03;Entregue;Dinheiro;4.0
+365;São Paulo;ChurrasKing;38;60.25;Cancelado;Voucher;
+366;Brasília;PizzaMax;21;52.64;Entregue;Pix;5.0
+367;Rio de Janeiro;BurgerFast;80;82.61;Cancelado;Dinheiro;3.0
+368;São Paulo;SushiHouse;15;55.9;Entregue;Cartão;5.0
+369;São Paulo;SushiHouse;48;127.36;Entregue;Cartão;1.0
+370;Curitiba;VeggieLife;15;35.74;Entregue;Cartão;1.0
+371;Curitiba;VeggieLife;30;149.46;Entregue;Voucher;2.0
+372;Curitiba;VeggieLife;60;35.28;Entregue;Dinheiro;5.0
+373;Brasília;ChurrasKing;85;105.35;Cancelado;Cartão;1.0
+374;São Paulo;PizzaMax;87;124.83;Entregue;Voucher;4.0
+375;São Paulo;SushiHouse;46;60.17;Cancelado;Cartão;4.0
+376;Brasília;VeggieLife;80;104.43;Cancelado;Voucher;3.0
+377;Brasília;VeggieLife;41;101.58;Cancelado;Cartão;2.0
+378;Curitiba;BurgerFast;79;34.39;Cancelado;Dinheiro;
+379;São Paulo;PizzaMax;66;32.06;Cancelado;Pix;1.0
+380;São Paulo;BurgerFast;32;39.72;Entregue;Cartão;3.0
+381;Rio de Janeiro;PizzaMax;24;99.09;Entregue;Cartão;
+382;Rio de Janeiro;SushiHouse;26;121.56;Entregue;Pix;2.0
+383;Curitiba;VeggieLife;71;76.07;Entregue;Dinheiro;4.0
+384;Rio de Janeiro;PizzaMax;46;141.07;Cancelado;Dinheiro;5.0
+385;Rio de Janeiro;BurgerFast;68;89.5;Cancelado;Dinheiro;1.0
+386;Belo Horizonte;ChurrasKing;59;61.82;Cancelado;Pix;1.0
+387;Curitiba;SushiHouse;78;30.95;Entregue;Voucher;5.0
+388;São Paulo;BurgerFast;71;39.68;Entregue;Voucher;4.0
+389;Belo Horizonte;SushiHouse;67;107.4;Entregue;Voucher;5.0
+390;Curitiba;BurgerFast;77;31.98;Entregue;Cartão;3.0
+391;Belo Horizonte;PizzaMax;74;38.1;Entregue;Pix;
+392;São Paulo;SushiHouse;61;85.54;Cancelado;Cartão;1.0
+393;Brasília;ChurrasKing;23;23.53;Entregue;Voucher;3.0
+394;Rio de Janeiro;SushiHouse;35;118.89;Entregue;Voucher;
+395;Curitiba;SushiHouse;33;37.32;Cancelado;Pix;4.0
+396;Curitiba;ChurrasKing;74;118.94;Entregue;Cartão;1.0
+397;Belo Horizonte;SushiHouse;88;27.72;Entregue;Cartão;3.0
+398;Brasília;BurgerFast;29;110.38;Entregue;Cartão;4.0
+399;Brasília;PizzaMax;22;39.15;Entregue;Dinheiro;1.0
+400;Curitiba;PizzaMax;77;141.54;Entregue;Voucher;1.0
+401;Brasília;BurgerFast;50;124.94;Entregue;Cartão;
+402;Brasília;ChurrasKing;27;119.46;Cancelado;Dinheiro;3.0
+403;Rio de Janeiro;VeggieLife;18;31.86;Entregue;Voucher;
+404;São Paulo;SushiHouse;26;110.68;Entregue;Cartão;4.0
+405;Belo Horizonte;BurgerFast;90;76.64;Cancelado;Cartão;2.0
+406;Belo Horizonte;SushiHouse;35;136.16;Cancelado;Voucher;2.0
+407;Belo Horizonte;SushiHouse;26;128.62;Entregue;Dinheiro;4.0
+408;Brasília;BurgerFast;27;137.22;Entregue;Dinheiro;2.0
+409;Brasília;PizzaMax;22;137.51;Entregue;Cartão;5.0
+410;São Paulo;PizzaMax;59;66.39;Cancelado;Voucher;1.0
+411;Belo Horizonte;PizzaMax;16;64.44;Entregue;Voucher;5.0
+412;São Paulo;BurgerFast;69;54.4;Entregue;Voucher;
+413;Rio de Janeiro;VeggieLife;47;73.45;Cancelado;Voucher;4.0
+414;Curitiba;SushiHouse;70;123.91;Entregue;Dinheiro;5.0
+415;Curitiba;VeggieLife;58;53.64;Entregue;Voucher;3.0
+416;São Paulo;SushiHouse;30;71.07;Entregue;Pix;5.0
+417;Brasília;PizzaMax;66;21.67;Entregue;Voucher;3.0
+418;Curitiba;PizzaMax;23;148.89;Entregue;Pix;3.0
+419;Belo Horizonte;VeggieLife;67;143.15;Entregue;Voucher;1.0
+420;Rio de Janeiro;PizzaMax;90;33.87;Cancelado;Cartão;5.0
+421;Belo Horizonte;PizzaMax;20;121.24;Entregue;Pix;
+422;Belo Horizonte;VeggieLife;55;50.55;Cancelado;Voucher;4.0
+423;São Paulo;VeggieLife;39;97.51;Entregue;Cartão;1.0
+424;Brasília;PizzaMax;57;95.18;Entregue;Voucher;
+425;Brasília;PizzaMax;16;127.95;Cancelado;Dinheiro;2.0
+426;Rio de Janeiro;ChurrasKing;40;42.44;Entregue;Voucher;3.0
+427;São Paulo;PizzaMax;72;21.52;Cancelado;Cartão;2.0
+428;Rio de Janeiro;ChurrasKing;26;41.47;Entregue;Cartão;3.0
+429;Brasília;SushiHouse;76;31.82;Cancelado;Voucher;2.0
+430;Brasília;ChurrasKing;50;53.0;Entregue;Voucher;4.0
+431;Curitiba;BurgerFast;17;72.12;Cancelado;Dinheiro;
+432;Brasília;PizzaMax;50;96.67;Entregue;Pix;1.0
+433;São Paulo;SushiHouse;18;25.52;Entregue;Voucher;4.0
+434;Curitiba;PizzaMax;21;89.0;Entregue;Voucher;
+435;Brasília;ChurrasKing;75;37.41;Cancelado;Voucher;1.0
+436;Brasília;PizzaMax;85;68.01;Cancelado;Pix;
+437;São Paulo;SushiHouse;71;113.37;Entregue;Cartão;1.0
+438;São Paulo;ChurrasKing;84;78.23;Entregue;Dinheiro;3.0
+439;São Paulo;ChurrasKing;68;102.32;Entregue;Dinheiro;
+440;Belo Horizonte;BurgerFast;64;38.31;Entregue;Pix;
+441;Curitiba;PizzaMax;40;100.18;Entregue;Dinheiro;
+442;Brasília;PizzaMax;50;45.84;Entregue;Dinheiro;
+443;Curitiba;ChurrasKing;32;70.62;Cancelado;Dinheiro;4.0
+444;Curitiba;SushiHouse;32;143.96;Entregue;Cartão;5.0
+445;Rio de Janeiro;BurgerFast;49;114.81;Entregue;Cartão;1.0
+446;Belo Horizonte;PizzaMax;41;83.06;Entregue;Voucher;2.0
+447;Rio de Janeiro;BurgerFast;50;134.7;Cancelado;Cartão;1.0
+448;Brasília;ChurrasKing;27;100.72;Cancelado;Pix;3.0
+449;Curitiba;BurgerFast;65;50.91;Entregue;Dinheiro;3.0
+450;Belo Horizonte;ChurrasKing;44;116.22;Entregue;Voucher;2.0
+451;Curitiba;SushiHouse;83;91.67;Cancelado;Cartão;3.0
+452;Curitiba;PizzaMax;21;60.17;Entregue;Pix;2.0
+453;Curitiba;SushiHouse;74;118.29;Cancelado;Dinheiro;4.0
+454;Curitiba;BurgerFast;80;111.29;Entregue;Dinheiro;3.0
+455;São Paulo;BurgerFast;37;132.3;Entregue;Pix;1.0
+456;Belo Horizonte;ChurrasKing;61;120.41;Entregue;Pix;1.0
+457;Brasília;SushiHouse;19;34.27;Entregue;Pix;3.0
+458;Rio de Janeiro;ChurrasKing;49;143.57;Cancelado;Cartão;
+459;Belo Horizonte;PizzaMax;63;91.73;Entregue;Voucher;1.0
+460;Rio de Janeiro;BurgerFast;24;132.57;Entregue;Voucher;2.0
+461;Rio de Janeiro;BurgerFast;30;99.97;Cancelado;Voucher;1.0
+462;São Paulo;VeggieLife;20;23.33;Cancelado;Cartão;4.0
+463;Belo Horizonte;VeggieLife;55;139.49;Entregue;Pix;
+464;Brasília;VeggieLife;42;116.33;Cancelado;Dinheiro;3.0
+465;São Paulo;BurgerFast;60;120.28;Entregue;Pix;5.0
+466;Curitiba;VeggieLife;47;93.45;Cancelado;Cartão;5.0
+467;Curitiba;ChurrasKing;41;143.79;Entregue;Voucher;3.0
+468;Brasília;PizzaMax;79;134.42;Entregue;Dinheiro;
+469;Brasília;BurgerFast;86;89.61;Entregue;Cartão;2.0
+470;Rio de Janeiro;SushiHouse;56;92.99;Entregue;Dinheiro;
+471;Belo Horizonte;ChurrasKing;62;86.95;Entregue;Dinheiro;
+472;Curitiba;PizzaMax;86;82.29;Entregue;Voucher;5.0
+473;Brasília;PizzaMax;78;124.85;Entregue;Cartão;4.0
+474;Brasília;PizzaMax;63;46.72;Entregue;Cartão;3.0
+475;São Paulo;PizzaMax;17;22.27;Cancelado;Cartão;4.0
+476;São Paulo;ChurrasKing;61;58.93;Entregue;Voucher;1.0
+477;Brasília;VeggieLife;74;121.04;Entregue;Voucher;1.0
+478;São Paulo;ChurrasKing;47;23.0;Cancelado;Cartão;
+479;Belo Horizonte;BurgerFast;87;130.72;Entregue;Cartão;3.0
+480;Rio de Janeiro;PizzaMax;22;147.11;Entregue;Pix;3.0
+481;Rio de Janeiro;PizzaMax;54;145.16;Entregue;Voucher;1.0
+482;Rio de Janeiro;ChurrasKing;38;36.14;Entregue;Pix;
+483;Rio de Janeiro;SushiHouse;45;72.33;Cancelado;Dinheiro;3.0
+484;São Paulo;BurgerFast;41;134.65;Entregue;Dinheiro;2.0
+485;Curitiba;PizzaMax;73;118.86;Entregue;Dinheiro;
+486;São Paulo;VeggieLife;16;70.04;Entregue;Cartão;5.0
+487;Rio de Janeiro;VeggieLife;42;22.23;Entregue;Cartão;5.0
+488;Rio de Janeiro;ChurrasKing;44;67.29;Entregue;Pix;4.0
+489;Brasília;ChurrasKing;89;29.9;Entregue;Dinheiro;5.0
+490;São Paulo;PizzaMax;61;97.63;Entregue;Voucher;
+491;Belo Horizonte;SushiHouse;26;125.68;Entregue;Voucher;2.0
+492;Rio de Janeiro;BurgerFast;76;37.66;Cancelado;Pix;
+493;Brasília;BurgerFast;74;122.51;Entregue;Voucher;3.0
+494;Rio de Janeiro;PizzaMax;16;100.25;Entregue;Pix;2.0
+495;Rio de Janeiro;BurgerFast;75;96.99;Cancelado;Pix;3.0
+496;São Paulo;PizzaMax;61;76.97;Entregue;Dinheiro;
+497;São Paulo;VeggieLife;33;133.04;Entregue;Dinheiro;4.0
+498;Belo Horizonte;ChurrasKing;82;21.29;Entregue;Voucher;
+499;Curitiba;ChurrasKing;46;70.0;Entregue;Voucher;3.0
+500;São Paulo;VeggieLife;39;139.98;Cancelado;Dinheiro;5.0

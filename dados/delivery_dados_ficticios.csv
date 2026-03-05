@@ -1,0 +1,121 @@
+id_pedido,data,cidade,restaurante,valor_pedido,tempo_entrega_min
+1,2025-01-01,Curitiba,Tempero Baiano,149.29,54
+2,2025-02-16,Porto Alegre,Tempero Baiano,36.9,55
+3,2025-01-25,Curitiba,Sabor Grill,141.12,54
+4,2025-01-17,Curitiba,Pizza Prime,108.65,20
+5,2025-03-02,Porto Alegre,Sabor Grill,93.91,24
+6,2025-02-28,Rio de Janeiro,Sushi Express,137.28,78
+7,2025-01-11,Porto Alegre,Tempero Baiano,138.4,37
+8,2025-01-25,Porto Alegre,Sabor Grill,113.7,32
+9,2025-01-24,Belo Horizonte,Sabor Grill,138.33,22
+10,2025-02-03,Rio de Janeiro,Burger House,72.23,50
+11,2025-01-29,Curitiba,Sabor Grill,54.99,73
+12,2025-01-08,Belo Horizonte,Burger House,123.45,78
+13,2025-01-13,São Paulo,Burger House,25.04,54
+14,2025-02-15,Rio de Janeiro,Sabor Grill,126.45,24
+15,2025-02-12,Rio de Janeiro,Tempero Baiano,55.69,40
+16,2025-02-10,Belo Horizonte,Burger House,107.06,62
+17,2025-01-13,Belo Horizonte,Sabor Grill,112.97,63
+18,2025-02-05,Rio de Janeiro,Tempero Baiano,106.43,44
+19,2025-01-18,São Paulo,Burger House,110.51,54
+20,2025-02-21,Curitiba,Sabor Grill,108.18,24
+21,2025-02-20,São Paulo,Burger House,97.71,72
+22,2025-01-25,Curitiba,Tempero Baiano,87.26,67
+23,2025-02-14,Belo Horizonte,Sabor Grill,147.98,63
+24,2025-02-05,Belo Horizonte,Burger House,107.37,20
+25,2025-01-09,São Paulo,Sabor Grill,77.55,73
+26,2025-02-11,Belo Horizonte,Pizza Prime,100.3,26
+27,2025-01-23,Rio de Janeiro,Sushi Express,91.82,79
+28,2025-03-02,Rio de Janeiro,Sushi Express,53.84,25
+29,2025-02-24,Rio de Janeiro,Burger House,62.07,37
+30,2025-01-05,Belo Horizonte,Sushi Express,78.9,79
+31,2025-01-17,São Paulo,Sushi Express,56.48,65
+32,2025-01-12,São Paulo,Pizza Prime,118.76,35
+33,2025-01-12,Porto Alegre,Burger House,105.15,87
+34,2025-02-01,Rio de Janeiro,Pizza Prime,50.11,20
+35,2025-01-06,Rio de Janeiro,Sabor Grill,51.93,62
+36,2025-01-25,Porto Alegre,Sabor Grill,36.41,66
+37,2025-01-21,São Paulo,Pizza Prime,60.63,57
+38,2025-02-14,São Paulo,Sushi Express,98.08,53
+39,2025-01-16,Curitiba,Sabor Grill,140.78,83
+40,2025-01-18,São Paulo,Burger House,79.67,74
+41,2025-01-08,Rio de Janeiro,Sabor Grill,107.61,90
+42,2025-03-01,Rio de Janeiro,Burger House,57.84,24
+43,2025-01-28,Rio de Janeiro,Burger House,110.17,28
+44,2025-01-26,Porto Alegre,Tempero Baiano,27.51,42
+45,2025-03-02,Belo Horizonte,Tempero Baiano,89.87,73
+46,2025-01-10,Porto Alegre,Sabor Grill,104.02,83
+47,2025-01-20,Rio de Janeiro,Burger House,29.14,45
+48,2025-01-04,Porto Alegre,Tempero Baiano,149.23,64
+49,2025-01-27,São Paulo,Burger House,38.74,38
+50,2025-03-02,Curitiba,Tempero Baiano,94.07,46
+51,2025-02-20,Curitiba,Tempero Baiano,46.83,55
+52,2025-02-03,Porto Alegre,Tempero Baiano,37.03,41
+53,2025-01-12,Belo Horizonte,Sushi Express,132.62,65
+54,2025-02-08,Porto Alegre,Sabor Grill,27.14,81
+55,2025-01-30,Porto Alegre,Sushi Express,43.18,84
+56,2025-01-08,Porto Alegre,Pizza Prime,72.83,46
+57,2025-02-24,Curitiba,Pizza Prime,33.66,69
+58,2025-02-22,Curitiba,Burger House,58.88,69
+59,2025-02-24,Porto Alegre,Tempero Baiano,142.38,44
+60,2025-02-02,Belo Horizonte,Sabor Grill,58.36,69
+61,2025-01-14,Belo Horizonte,Sabor Grill,53.29,69
+62,2025-01-27,Rio de Janeiro,Sabor Grill,137.47,33
+63,2025-01-15,Belo Horizonte,Pizza Prime,49.31,25
+64,2025-01-30,São Paulo,Sushi Express,44.52,34
+65,2025-01-26,Porto Alegre,Tempero Baiano,57.73,58
+66,2025-01-17,São Paulo,Sushi Express,65.43,40
+67,2025-02-16,Curitiba,Pizza Prime,55.74,69
+68,2025-02-16,Porto Alegre,Burger House,49.28,62
+69,2025-01-14,Porto Alegre,Burger House,45.55,44
+70,2025-01-22,Curitiba,Sabor Grill,34.94,34
+71,2025-02-08,Curitiba,Tempero Baiano,98.12,74
+72,2025-02-24,Curitiba,Pizza Prime,139.75,68
+73,2025-01-15,Belo Horizonte,Pizza Prime,50.17,49
+74,2025-01-11,Rio de Janeiro,Pizza Prime,96.5,33
+75,2025-02-11,São Paulo,Sushi Express,54.1,37
+76,2025-02-06,Porto Alegre,Sushi Express,120.48,82
+77,2025-01-13,Rio de Janeiro,Sabor Grill,127.7,68
+78,2025-01-21,Belo Horizonte,Sabor Grill,85.37,53
+79,2025-01-14,São Paulo,Sushi Express,137.87,52
+80,2025-01-26,Curitiba,Tempero Baiano,59.58,64
+81,2025-02-14,Rio de Janeiro,Sabor Grill,140.61,35
+82,2025-02-12,Porto Alegre,Pizza Prime,123.11,51
+83,2025-02-13,São Paulo,Sabor Grill,138.42,41
+84,2025-03-02,Rio de Janeiro,Burger House,146.44,61
+85,2025-01-10,Curitiba,Burger House,36.42,20
+86,2025-01-06,Rio de Janeiro,Sushi Express,30.04,65
+87,2025-02-15,Rio de Janeiro,Tempero Baiano,94.47,44
+88,2025-03-01,Porto Alegre,Pizza Prime,54.36,85
+89,2025-01-07,Porto Alegre,Tempero Baiano,35.41,78
+90,2025-02-19,São Paulo,Sabor Grill,69.05,35
+91,2025-02-04,São Paulo,Pizza Prime,29.63,31
+92,2025-02-13,São Paulo,Sushi Express,46.92,71
+93,2025-01-31,Belo Horizonte,Tempero Baiano,85.2,76
+94,2025-02-21,São Paulo,Sushi Express,42.14,90
+95,2025-03-02,Porto Alegre,Sushi Express,117.47,53
+96,2025-01-21,Porto Alegre,Tempero Baiano,128.77,39
+97,2025-02-22,Rio de Janeiro,Sabor Grill,127.6,35
+98,2025-01-02,Belo Horizonte,Sushi Express,116.59,73
+99,2025-01-30,Porto Alegre,Pizza Prime,134.62,41
+100,2025-01-09,Rio de Janeiro,Tempero Baiano,76.71,36
+101,2025-02-01,Curitiba,Pizza Prime,121.87,51
+102,2025-01-28,São Paulo,Burger House,135.45,38
+103,2025-02-16,São Paulo,Sabor Grill,123.07,29
+104,2025-01-28,Curitiba,Burger House,75.51,20
+105,2025-02-18,Belo Horizonte,Burger House,60.81,62
+106,2025-02-07,São Paulo,Tempero Baiano,86.38,38
+107,2025-02-01,Curitiba,Tempero Baiano,65.99,53
+108,2025-01-16,Porto Alegre,Pizza Prime,138.81,28
+109,2025-01-07,Curitiba,Pizza Prime,124.93,25
+110,2025-01-20,Rio de Janeiro,Sabor Grill,94.66,31
+111,2025-01-16,São Paulo,Pizza Prime,40.03,33
+112,2025-02-05,Rio de Janeiro,Tempero Baiano,27.23,46
+113,2025-02-08,Rio de Janeiro,Burger House,127.36,52
+114,2025-01-14,Belo Horizonte,Burger House,120.25,59
+115,2025-01-29,Porto Alegre,Sushi Express,48.18,26
+116,2025-01-01,Porto Alegre,Sabor Grill,133.01,81
+117,2025-01-13,Belo Horizonte,Pizza Prime,98.84,71
+118,2025-02-13,Porto Alegre,Tempero Baiano,79.23,48
+119,2025-01-03,Curitiba,Tempero Baiano,143.6,82
+120,2025-02-27,Curitiba,Tempero Baiano,116.35,41
